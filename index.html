@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="OFFCUT is an independent design practice making useful ideas with unreasonable execution.">
+  <meta name="theme-color" content="#f1ff35">
+  <title>OFFCUT - Useful ideas. Unreasonable execution.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip the spectacle</a>
+  <canvas class="page-paint" id="page-paint" aria-hidden="true"></canvas>
+
+  <header class="site-header" id="site-header">
+    <a class="wordmark magnetic" href="#hero" aria-label="OFFCUT, back to top">
+      <span>OFF</span><span>CUT</span><sup>®</sup>
+    </a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="nav-link magnetic" href="#work"><span>01</span> Work</a>
+      <a class="nav-link magnetic" href="#about"><span>02</span> Studio</a>
+      <a class="nav-link magnetic" href="#contact"><span>03</span> Contact</a>
+    </nav>
+    <button class="header-status" id="status-button" type="button" aria-label="Question the studio status"><i aria-hidden="true"></i><span id="status-copy">Taking on trouble</span></button>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <canvas id="ink-canvas" class="ink-canvas" aria-hidden="true"></canvas>
+      <div class="hero-grain" aria-hidden="true"></div>
+      <p class="hero-kicker">Independent design practice / London + elsewhere / Since 2021</p>
+      <h1 class="hero-title" id="hero-title">
+        <button class="hero-line hero-line--one" type="button">USEFUL</button>
+        <button class="hero-line hero-line--two" type="button">IDEAS<span class="hero-dot">.</span></button>
+        <button class="hero-line hero-line--three" type="button">UNREASONABLE</button>
+        <button class="hero-line hero-line--four" type="button">EXECUTION<span class="hero-dot">.</span></button>
+      </h1>
+      <button class="hero-stamp" type="button" aria-label="Definitely do not press this stamp"><span>DO NOT<br>DILUTE</span></button>
+      <p class="hero-side-note">Brands / campaigns / digital things / physical things / useful accidents</p>
+      <a class="hero-cta magnetic" href="#work"><span>Enter the work</span><b aria-hidden="true">↘</b></a>
+      <div class="paint-controls" role="group" aria-label="Canvas controls">
+        <button class="paint-toggle" id="paint-toggle" type="button" aria-pressed="true">Paint: on</button>
+        <button class="paint-clear" id="paint-clear" type="button">Clear paint</button>
+      </div>
+      <button class="registration registration--a" type="button" aria-label="Inspect registration mark one"></button>
+      <button class="registration registration--b" type="button" aria-label="Inspect registration mark two"></button>
+      <div class="scroll-ticket" aria-hidden="true">Scroll to tear ↓</div>
+    </section>
+
+    <aside class="marquee" role="button" tabindex="0" aria-label="Studio services. Activate to make the marquee hurry.">
+      <div class="marquee-track">
+        <span>IDENTITY SYSTEMS ✳ DIGITAL EXPERIENCES ✳ CAMPAIGNS ✳ STRANGE LITTLE OBJECTS ✳ NO BEIGE DECKS ✳&nbsp;</span>
+        <span aria-hidden="true">IDENTITY SYSTEMS ✳ DIGITAL EXPERIENCES ✳ CAMPAIGNS ✳ STRANGE LITTLE OBJECTS ✳ NO BEIGE DECKS ✳&nbsp;</span>
+      </div>
+    </aside>
+
+    <section class="work" id="work" aria-labelledby="work-title">
+      <header class="work-header reveal">
+        <p class="eyebrow">Selected evidence / 2022-26</p>
+        <h2 id="work-title">Six jobs.<br><em>Zero house style.</em></h2>
+        <p class="work-instruction">Drag, scroll or use the arrows. Open a project for the suspiciously tidy explanation.</p>
+        <div class="work-controls" aria-label="Project carousel controls">
+          <button class="control-button" id="work-prev" type="button" aria-label="Previous project">←</button>
+          <span id="work-count" aria-live="polite">01 / 06</span>
+          <button class="control-button" id="work-next" type="button" aria-label="Next project">→</button>
+        </div>
+      </header>
+
+      <div class="project-rail" id="project-rail" role="list" aria-label="Selected projects" tabindex="0">
+        <article class="project project--pulse" role="listitem" data-project="01">
+          <button class="project-open" type="button" aria-expanded="false">
+            <span class="project-number">01 / Culture</span>
+            <span class="project-art art-pulse" aria-hidden="true"><i></i><i></i><i></i><b>PULSE!</b></span>
+            <span class="project-title">Pulse FM</span>
+            <span class="project-summary">A pirate radio station that finally went legal-without learning to behave.</span>
+            <span class="project-action">View the damage <b>＋</b></span>
+          </button>
+          <div class="project-detail" hidden>
+            <p>We built a broadcast identity that changes with the bassline: condensed type, emergency orange and a logo designed to look better photocopied badly.</p>
+            <dl><div><dt>Disciplines</dt><dd>Strategy, identity, motion</dd></div><div><dt>Year</dt><dd>2026</dd></div></dl>
+          </div>
+        </article>
+
+        <article class="project project--morrow" role="listitem" data-project="02">
+          <button class="project-open" type="button" aria-expanded="false">
+            <span class="project-number">02 / Food</span>
+            <span class="project-art art-morrow" aria-hidden="true"><i>M</i><b>HOT<br>SAUCE<br>FOR<br>BREAKFAST</b></span>
+            <span class="project-title">Morrow</span>
+            <span class="project-summary">Fermented heat for people who refuse to start the day gently.</span>
+            <span class="project-action">Taste the system <b>＋</b></span>
+          </button>
+          <div class="project-detail" hidden>
+            <p>A breakfast hot sauce with the visual volume of an alarm clock. Every label becomes a sunrise when three bottles stand together.</p>
+            <dl><div><dt>Disciplines</dt><dd>Naming, packaging, campaign</dd></div><div><dt>Year</dt><dd>2025</dd></div></dl>
+          </div>
+        </article>
+
+        <article class="project project--relay" role="listitem" data-project="03">
+          <button class="project-open" type="button" aria-expanded="false">
+            <span class="project-number">03 / Technology</span>
+            <span class="project-art art-relay" aria-hidden="true"><i></i><i></i><b>R↗<br>R↗<br>R↗</b></span>
+            <span class="project-title">Relay</span>
+            <span class="project-summary">Climate data translated from terrifying spreadsheets into useful decisions.</span>
+            <span class="project-action">Trace the signal <b>＋</b></span>
+          </button>
+          <div class="project-detail" hidden>
+            <p>Relay turns climate risk into an interface people can act on. Our identity treats every data point as a message in motion, never a static verdict.</p>
+            <dl><div><dt>Disciplines</dt><dd>Identity, product, data design</dd></div><div><dt>Year</dt><dd>2025</dd></div></dl>
+          </div>
+        </article>
+
+        <article class="project project--melt" role="listitem" data-project="04">
+          <button class="project-open" type="button" aria-expanded="false">
+            <span class="project-number">04 / Fashion</span>
+            <span class="project-art art-melt" aria-hidden="true"><b>MELT</b><i>SEASON<br>00</i></span>
+            <span class="project-title">Melt Dept.</span>
+            <span class="project-summary">A circular fashion label making one-off garments from industrial leftovers.</span>
+            <span class="project-action">Pull the thread <b>＋</b></span>
+          </button>
+          <div class="project-detail" hidden>
+            <p>No two pieces match, so no two labels do either. A modular identity stamps, stretches and misprints itself across whatever material survives.</p>
+            <dl><div><dt>Disciplines</dt><dd>Identity, art direction, e-commerce</dd></div><div><dt>Year</dt><dd>2024</dd></div></dl>
+          </div>
+        </article>
+
+        <article class="project project--elsewhere" role="listitem" data-project="05">
+          <button class="project-open" type="button" aria-expanded="false">
+            <span class="project-number">05 / Publishing</span>
+            <span class="project-art art-elsewhere" aria-hidden="true"><i>ELSE</i><b>WHERE?</b><em>Vol. 12</em></span>
+            <span class="project-title">Elsewhere</span>
+            <span class="project-summary">A travel journal interested in everywhere except the obvious places.</span>
+            <span class="project-action">Miss the turn <b>＋</b></span>
+          </button>
+          <div class="project-detail" hidden>
+            <p>We designed an editorial system that behaves like getting lost: wrong turns, marginal discoveries and coordinates that occasionally tell the truth.</p>
+            <dl><div><dt>Disciplines</dt><dd>Editorial, digital, campaigns</dd></div><div><dt>Year</dt><dd>2023</dd></div></dl>
+          </div>
+        </article>
+
+        <article class="project project--common" role="listitem" data-project="06">
+          <button class="project-open" type="button" aria-expanded="false">
+            <span class="project-number">06 / Public space</span>
+            <span class="project-art art-common" aria-hidden="true"><b>THIS<br>SPACE<br>IS<br>YOURS</b><i>↙</i></span>
+            <span class="project-title">Common Ground</span>
+            <span class="project-summary">Turning a dead shopping arcade into a very alive neighbourhood workshop.</span>
+            <span class="project-action">Come inside <b>＋</b></span>
+          </button>
+          <div class="project-detail" hidden>
+            <p>Honestly, the developer got tired of writing these. You opened all six though, so apparently this is your problem now.</p>
+            <dl><div><dt>Disciplines</dt><dd>Breaking the fourth wall</dd></div><div><dt>Year</dt><dd>Long enough</dd></div></dl>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="manifesto" id="about" aria-labelledby="about-title">
+      <div class="manifesto-label reveal"><p class="eyebrow">Operating principles</p><span>(We have four)</span></div>
+      <h2 id="about-title" class="sr-only">About OFFCUT</h2>
+      <ol class="principles">
+        <li class="reveal"><span>01</span><p>Make it <em>clear</em> before making it clever.</p></li>
+        <li class="reveal"><span>02</span><p>Then make it <strong>extremely clever.</strong></p></li>
+        <li class="reveal"><span>03</span><p>Build systems people can <em>play with.</em></p></li>
+        <li class="reveal"><span>04</span><p>Leave a useful <strong>mess.</strong></p></li>
+      </ol>
+      <div class="studio-facts reveal">
+        <p>OFFCUT is a tiny independent studio for organisations in motion. We work across strategy, identity and experience-usually all at once.</p>
+        <dl>
+          <div><dt>People</dt><dd>04</dd></div>
+          <div><dt>Time zones</dt><dd>03</dd></div>
+          <div><dt>Industry awards</dt><dd>11</dd></div>
+          <div><dt>Office plants alive</dt><dd>06/09</dd></div>
+        </dl>
+      </div>
+      <div class="manifesto-sticker" aria-hidden="true">SMALL TEAM<br>LOUD WORK</div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-top reveal">
+        <p class="eyebrow">New business / old-fashioned email</p>
+        <h2 id="contact-title">BRING US<br>THE <em>ODD</em> ONE.</h2>
+        <a class="contact-email magnetic" href="mailto:hello@offcut.studio">hello@offcut.studio ↗</a>
+      </div>
+      <form class="brief-form reveal" id="contact-form" novalidate>
+        <p class="form-intro">Or feed the brief into the machine:</p>
+        <div class="form-row">
+          <label for="name">My name is</label>
+          <input id="name" name="name" type="text" autocomplete="name" placeholder="YOUR NAME" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Reply to</label>
+          <input id="email" name="email" type="email" autocomplete="email" placeholder="YOU@SOMEWHERE.COM" required>
+        </div>
+        <div class="form-row form-row--brief">
+          <label for="brief">The situation</label>
+          <textarea id="brief" name="brief" rows="3" placeholder="WHAT IS BROKEN / BORING / ABOUT TO EXIST?" required></textarea>
+        </div>
+        <button class="submit-button magnetic" type="submit"><span>Launch brief</span><b aria-hidden="true">↗</b></button>
+        <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>OFFCUT® / Independent by design</p>
+    <p>© 2026 / All wrongs reversed</p>
+    <a href="#hero">Back to the noise ↑</a>
+  </footer>
+
+  <button class="why-trigger" id="why-trigger" type="button" aria-label="Why make this?" title="Why make this?">?</button>
+
+  <dialog class="why-dialog" id="why-dialog" aria-labelledby="why-title">
+    <button class="why-close" id="why-close" type="button" aria-label="Close explanation">×</button>
+    <p class="why-kicker">One sincere interruption</p>
+    <h2 id="why-title">Why make this?</h2>
+    <p>I built this for a hackathon because I wanted to see how far I could push plain HTML, CSS, and JavaScript-no libraries, frameworks, or borrowed effects. I could have made another clean, boring webpage. I didn’t want to. This is me treating the browser like a canvas and seeing how much personality I could squeeze out of the basics.</p>
+    <h3>Things I hid in here</h3>
+    <ul class="why-triggers">
+      <li>Click each giant word in the opening headline.</li>
+      <li>Disobey the “Do Not Dilute” stamp.</li>
+      <li>Inspect both printer-registration crosshairs.</li>
+      <li>Question the status light in the header.</li>
+      <li>Interrupt the scrolling services marquee.</li>
+      <li>Ask the wandering Quality Control employee for help.</li>
+      <li>Open every project and inspect what gets stuck to it.</li>
+      <li>Keep pressing the project arrows well past a reasonable point.</li>
+      <li>Paint, clear the evidence, and investigate the fake contact form.</li>
+    </ul>
+    <small>Designed and coded from scratch. Excess was intentional.</small>
+  </dialog>
+
+  <button class="quality-inspector" id="quality-inspector" type="button" aria-label="Ask quality control for an inspection">
+    <i>?</i><span>Quality<br>control</span>
+  </button>
+  <div class="goofy-message" id="goofy-message" aria-hidden="true"></div>
+
+  <div class="troll-toast" id="troll-toast" role="status" aria-live="polite" aria-atomic="true" hidden>
+    <button class="troll-toast-close" type="button" aria-label="Dismiss message">×</button>
+    <strong>Did you not guess already that this is a troll? 🙄</strong>
+    <span>There is no studio. There is only CSS.</span>
+  </div>
+  <div class="cursor-stamp" aria-hidden="true"><span>BRUSH<br>PRESSURE</span><i></i></div>
+  <script src="script.js"></script>
+</body>
+</html>
